@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="@drawable/clock">
+
+        <ImageView
+            android:id="@+id/sec_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-45"
+            android:src="@drawable/second" />
+
+        <ImageView
+            android:id="@+id/min_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-90"
+            android:src="@drawable/min" />
+
+        <ImageView
+            android:id="@+id/hour_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-134"
+            android:src="@drawable/hour" />
+    </FrameLayout>
+
+</FrameLayout>
